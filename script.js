@@ -6,7 +6,7 @@ let total='';
 $(document).ready(function(){
     $('button').on('click',function(e){
         let btn = e.target.innerHTML;
-        if(btn>='0' && btn<="9"){
+        if(btn>='0' && btn<="9" ){
             handleNumber(btn)
         }
         else{
